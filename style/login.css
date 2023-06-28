@@ -93,7 +93,8 @@ body {
   transform: scale(1.10);
   background-color: #00dfc1;
   transition: 0.5s;
-  border-radius: 5px;
+  border-radius: 7px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
