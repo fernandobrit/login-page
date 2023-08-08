@@ -4,4 +4,6 @@ body {
 
 div {
    background-color: wheat;
+   width: 100px;
+   height: 100px;
 }
