@@ -3,9 +3,9 @@ body {
 }
 
 div {
-   background-color: wheat;
-   width: 100px;
-   height: 100px;
+   background-color: rgb(32, 89, 210);
+   width: 300px;
+   height: 1024px;
    display: flex;
    justify-content: center;
    
