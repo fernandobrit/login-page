@@ -1,9 +1,12 @@
 body {
-   background-color: rgb(0, 0, 255) ;
+   background-color: rgb(15, 15, 37)) ;
 }
 
 div {
    background-color: wheat;
    width: 100px;
    height: 100px;
+   display: flex;
+   justify-content: center;
+   
 }
