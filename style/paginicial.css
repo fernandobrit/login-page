@@ -2,4 +2,6 @@ body {
    background-color: rgb(0, 0, 255) ;
 }
 
-
+div {
+   background-color: wheat;
+}
