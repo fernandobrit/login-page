@@ -3,8 +3,7 @@ body {
 }
 
 div {
-   color: rgb(32, 89, 210);
-   width: 500px;
-   height: 500px;
-   display: contents;
+   color: rgb(230, 230, 230);
+   width: 100px;
+   height: 100px;
 }
