@@ -1,10 +1,16 @@
+html{
+   width: 100px;
+   height: 100px;
+   display: flex;
+}
+
 body {
    background-color: rgb(15, 15, 37) ;
 }
 
 div {
    color: rgb(230, 230, 230);
-   width: 100px;
-   height: 100px;
+   width: 300px;
+   height: 300px;
    margin: center;
 }
