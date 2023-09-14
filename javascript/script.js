@@ -25,12 +25,9 @@ function logar() {
     const email = document.getElementById('email').value 
     const senha = document.getElementById('senha').value
 
-    if (email === 'fb900131@gmail' && senha === 'admin') {
+    if (email === 'fb900131@gmail.com' && senha === 'admin') {
         window.location.href = "./paginicial.html"
     } else {
         alert('Email ou Senha incorretos, tente novamente.')
     }
-
-    if (done == 0 )
-    alert ("dados incorretos, tente novamente")
 }
