@@ -5,31 +5,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <title>FBCELL</title>
-  <link rel="icon" type="image/x-icon" href="/img/logotipo.png">
-  <link href="./style/aviso.css" rel="stylesheet" type="text/css" >
-  
-  <script defer="script.js"></script>
+  <link href="./style/login.css" rel="stylesheet" type="text/css" />
+  <script src="./javascript/script.js"></script>
 </head>
-
 <body>
-  
-    <div class="container">
-        <div class="box">
-  <div>
-<h1>
-  Aviso!
-</h1>
-<p>
-  Este site ainda está em fase de desenvolvimento!
-</p>
-  <p>
-    Essa é uma plataforma de compra e vendas de aparelhos elêtrnicos, por favor não use para golpes e etc, pois você poderá se prejudicar e, prejudicar outras pessoas. 
-  </p>
-  
-<a href="./login.html"><button>prosseguir</button></a>
-  </div>
-  
-  
-</body>
 
-</html>
+  <div class="page">
+    <!-- <form method="POST" class="formLogin"> -->
+      <div class="formLogin">
+        <img src="./img/Captura de Tela (2).png" width="100px" height="100px">
+        <h1>Login</h1>
+        <p>Digite os seus dados de acesso no campo abaixo.</p>
+        <label for="email">E-mail</label>
+        <input id="email" type="email" placeholder="Digite seu e-mail" autofocus="true" />
+        <label for="password">Senha</label>
+        <input id="senha" type="password" placeholder="Digite seu e-mail" />
+        <a href="#">Esqueci minha senha</a>
+        <!-- <input href="./paginicial.html" type="submit" value="Acessar" class="btn"> -->
+        <button class="btn" onclick="logar()">Acessar</button>
+      </div>
+      <!-- </form> -->
+</div>
+
+</body>
