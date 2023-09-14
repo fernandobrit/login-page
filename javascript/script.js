@@ -30,4 +30,7 @@ function logar() {
     } else {
         alert('Email ou Senha incorretos, tente novamente.')
     }
+
+    if (done == 0 )
+    alert ("dados incorretos, tente novamente")
 }
