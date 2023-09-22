@@ -40,9 +40,9 @@ button.addEventListener('click', password);
 function password() {
   if (input.type == "password") {
     input.type = "text";
-    button.textContent = "🤩";
+    button.textContent = "Visualizar";
   } else {
     input.type = "password";
-    button.textContent = "😣";
+    button.textContent = "Esconder";
   }
 }
