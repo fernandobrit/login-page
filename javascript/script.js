@@ -32,17 +32,16 @@ function logar() {
     }
 }
 
-"use strict";
-const input = document.querySelector("input");
-const button = document.querySelector("password");
-button.addEventListener('click', password);
+let btn = document.querySelector('.lnr-eye');
 
-function password() {
-  if (input.type == "password") {
-    input.type = "text";
-    button.textContent = "Visualizar";
-  } else {
-    input.type = "password";
-    button.textContent = "Esconder";
-  }
-}
+btn.addEventListener('click', function() {
+
+    let input = document.querySelector('#password');
+
+    if(input.getAttribute('type') == 'password') {
+        input.setAttribute('type', 'text');
+    } else {
+        input.setAttribute('type', 'password');
+    }
+
+});
