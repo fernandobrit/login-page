@@ -32,16 +32,17 @@ function logar() {
     }
 }
 
-let btn = document.querySelector('.lnr-eye');
+"use strict";
+const input = document.querySelector("input");
+const button = document.querySelector("password");
+button.addEventListener('click', password);
 
-btn.addEventListener('click', function() {
-
-    let input = document.querySelector('#password');
-
-    if(input.getAttribute('type') == 'password') {
-        input.setAttribute('type', 'text');
-    } else {
-        input.setAttribute('type', 'password');
-    }
-
-});
+function password() {
+  if (input.type == "password") {
+    input.type = "text";
+    button.textContent = "🤩";
+  } else {
+    input.type = "password";
+    button.textContent = "😣";
+  }
+}
