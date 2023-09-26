@@ -45,3 +45,8 @@ btn.addEventListener('click', function() {
     }
 
 });
+
+if (EventTarget.getkeyCode() == KeyboardEvent.VK_enter){
+
+    
+}
