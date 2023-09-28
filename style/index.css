@@ -73,7 +73,7 @@ body {
 }
 
 .formLogin a:hover {
-  color: #25f7d4;
+  color: #383838;
 }
 
 .bnt{
@@ -84,7 +84,7 @@ body {
   border: none ;
   transition: all linear 160ms;
   cursor: pointer;
-  margin: 0 ;
+  margin: 0px ;
   border-radius: 5px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -92,9 +92,10 @@ body {
 
 .btn:hover {
   transform: scale(1.10);
-  background-color: #00dfc1;
-  transition: 0.5s;
+  background-color: rgb(152, 152, 152);
+  transition: 0.7s;
   border-radius: 7px;
+  color:white;
 
 }
 
