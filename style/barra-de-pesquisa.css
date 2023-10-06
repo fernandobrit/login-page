@@ -21,7 +21,7 @@ body{
   /* Quando o campo de entrada fica em foco,
        mude sua largura para 100% */
   input[type=text]:focus {
-    width: 30%;
+    width: 50% ;
   }
 
  #list{
