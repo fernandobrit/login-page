@@ -32,5 +32,5 @@ body{
   }
 
 .list{
-  display: list-item;    
+  display:flex;    
  } 
