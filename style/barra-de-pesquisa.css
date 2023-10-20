@@ -2,7 +2,7 @@ body{
  background-color: rgba(102, 219, 235, 0.596); 
  height: 100% ;
  width: 100% ;
- display: inline-flex;
+ display: table ;
 
 }
 
@@ -30,5 +30,6 @@ input[type=text]:focus {
 }
 
 .list{
-display: list-item;    
+display: list-item;
+
 } 
