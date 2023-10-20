@@ -2,33 +2,33 @@ body{
  background-color: rgba(102, 219, 235, 0.596); 
  height: 100% ;
  width: 100% ;
- display: block;
+ display: inline-flex;
 
 }
 
-#searchbar{
-    margin-left: 15%;
-    padding:15px;
-    border-radius: 10px;
-  }
+ #searchbar{
+  margin-left: 15%;
+  padding:15px;
+  border-radius: 10px;
+}
 
-  input[type=text] {
-     width: 30%;
-     -webkit-transition: width 0.15s ease-in-out;
-     transition: width 0.15s ease-in-out;
-  }
+input[type=text] {
+   width: 30%;
+   -webkit-transition: width 0.15s ease-in-out;
+   transition: width 0.15s ease-in-out;
+}
 
-  /* Quando o campo de entrada fica em foco,
-       mude sua largura para 100% */
-  input[type=text]:focus {
-    width: 70% ;
-  }
+/* When the input field gets focus,
+     change its width to 100% */
+input[type=text]:focus {
+  width: 70%;
+}
 
- #list{
-   font-size:  1.5em;
-   margin-left: 90px;
-  }
+#list{
+ font-size:  1.5em;
+ margin-left: 90px;
+}
 
 .list{
-  display: list-item;    
- } 
+display: list-item;    
+} 
