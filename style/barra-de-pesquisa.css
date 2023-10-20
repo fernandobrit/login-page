@@ -27,6 +27,9 @@ input[type=text]:focus {
 #list{
  font-size:  1.5em;
  margin-left: 90px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: white;
+ margin-top: auto;
 }
 
 .list{
