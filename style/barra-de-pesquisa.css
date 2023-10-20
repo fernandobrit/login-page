@@ -29,7 +29,7 @@ input[type=text]:focus {
  margin-left: 90px;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  color: white;
- margin-top: auto;
+ margin-top: 15%;
 }
 
 .list{
