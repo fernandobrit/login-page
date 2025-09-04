@@ -22,7 +22,7 @@
 // })
 
 function logar() {
-    const email = document.getElementById('email').value 
+    const email = document.getElementById('email').value
     const senha = document.getElementById('senha').value
 
     if (email === 'admin' && senha === 'admin') {
@@ -31,6 +31,6 @@ function logar() {
         alert('Email ou Senha incorretos, tente novamente.')
     }
 }
-if (EventTarget.getkeyCode() == KeyboardEvent.VK_enter){
-    
+if (EventTarget.getkeyCode() == KeyboardEvent.VK_enter) {
+
 }

@@ -1,21 +1,21 @@
-body{
-background-color:#313131; 
- height: 100% ;
- width: 100% ;
- display: table ;
+body {
+  background-color: #313131;
+  height: 100%;
+  width: 100%;
+  display: table;
 
 }
 
- #searchbar{
+#searchbar {
   margin-left: 15%;
-  padding:15px;
+  padding: 15px;
   border-radius: 10px;
 }
 
 input[type=text] {
-   width: 30%;
-   -webkit-transition: width 0.15s ease-in-out;
-   transition: width 0.15s ease-in-out;
+  width: 30%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
 }
 
 /* When the input field gets focus,
@@ -26,7 +26,7 @@ input[type=text]:focus {
 
 
 
-.list{
-display: list-item;
+.list {
+  display: list-item;
 
-} 
+}
